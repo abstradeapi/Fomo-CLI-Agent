@@ -46,6 +46,9 @@ fomo-trader-intelligence/
 
 ## Overview
 
+<img width="1473" height="801" alt="image" src="https://github.com/user-attachments/assets/740ecb9f-bfe7-41df-82c2-8e212ed83461" />
+
+
 Fomo Trader Intelligence turns the Fomo API into an interactive command center. It provides guided prompts, formatted tables, local watchlists, swap deduplication, position-change detection, historical snapshots, and complete trader exports without requiring users to write API requests manually.
 
 The project separates API access, terminal presentation, portfolio analysis, and local persistence into small modules. API keys remain in a local environment file, while generated state is stored in SQLite.
@@ -68,6 +71,9 @@ The project separates API access, terminal presentation, portfolio analysis, and
 - **Reliable API client:** Enforce five requests per second and retry `429`, `502`, `503`, and `504` responses with backoff and jitter.
 - **Cross-network labels:** Recognize Ethereum, BNB Chain, Monad, Base, and Solana network IDs.
 
+<img width="1460" height="736" alt="image" src="https://github.com/user-attachments/assets/57e5abc3-7d9d-4e6f-8624-372a5e2457aa" />
+
+
 ## Requirements
 
 | Requirement | Details |
@@ -78,6 +84,9 @@ The project separates API access, terminal presentation, portfolio analysis, and
 | Terminal | PowerShell, Windows Terminal, Command Prompt, or a modern Unix shell |
 
 The public health check and public top-five leaderboard work without an API key. All trader-specific operations require Fomo API Pro access.
+
+<img width="1470" height="456" alt="image" src="https://github.com/user-attachments/assets/b8cdc115-0105-4bc7-817a-9b97f1433692" />
+
 
 ## Installation
 
