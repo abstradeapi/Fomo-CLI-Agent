@@ -1,0 +1,9 @@
+1. Meet Fomo Trader Intelligence: a Python terminal dashboard for exploring Fomo Family traders without writing API calls by hand. Discover leaderboard talent, inspect wallets, study portfolios, review swaps, and export research from one command center. https://getfomoapi.fun
+
+2. Following strong traders is useful. Blindly copying them is not. This app combines multi-window leaderboards, portfolio analytics, swap history, rankings, and local monitoring so you can research the full picture first. No trade execution, just better data.
+
+3. Built a watchlist for Fomo traders? This tool keeps it useful. It stores watched profiles locally, deduplicates swap IDs in SQLite, establishes a position baseline, and reports newly observed swaps or holding changes from a stylish terminal UI. Simple to run, easy to inspect.
+
+4. Fomo Trader Intelligence supports Solana and major EVM networks, respects the API's five-request-per-second limit, retries temporary failures, protects keys through .env, and exports trader snapshots to JSON. A practical base for research and alerting workflows.
+
+5. The Fomo API gives developers normalized social trading data. Fomo Trader Intelligence turns that data into an interactive research workflow: discover, resolve, analyze, monitor, and export. Follow updates at https://x.com/0xdexlenai or join https://t.me/dexlenai
