@@ -1,3 +1,25 @@
+# Fomo Trader Intelligence
+
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Fomo API](https://img.shields.io/badge/Fomo_API-Pro-00D4AA)](https://getfomoapi.fun)
+[![Terminal UI](https://img.shields.io/badge/UI-Rich_Terminal-7C3AED)](https://github.com/Textualize/rich)
+[![Status](https://img.shields.io/badge/status-active-success)](#project-status)
+
+**A stylish terminal dashboard for discovering, researching, exporting, and monitoring Fomo Family traders through the Fomo API.**
+
+> Fomo Trader Intelligence is a data and research tool. It does not submit transactions, manage private keys, or provide financial advice.
+
+## Repository Details
+
+| Property | Value |
+|---|---|
+| **Repository name** | `fomo-trader-intelligence` |
+| **Short description** | Terminal-based Fomo API trader discovery, portfolio analytics, swap monitoring, and research toolkit |
+| **Suggested topics** | `fomo-api`, `trading-bot`, `terminal-ui`, `crypto`, `solana`, `evm`, `wallet-monitor`, `trader-analytics`, `python`, `rich` |
+| **Fomo API** | [https://getfomoapi.fun](https://getfomoapi.fun) |
+| **Telegram** | [@dexlenai](https://t.me/dexlenai) |
+| **X / Twitter** | [@0xdexlenai](https://x.com/0xdexlenai) |
+
 ```text
 fomo-trader-intelligence/
 |-- .env.example
@@ -22,33 +44,14 @@ fomo-trader-intelligence/
     `-- using-terminal-features.md
 ```
 
-# Fomo Trader Intelligence
-
-[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Fomo API](https://img.shields.io/badge/Fomo_API-Pro-00D4AA)](https://getfomoapi.fun)
-[![Terminal UI](https://img.shields.io/badge/UI-Rich_Terminal-7C3AED)](https://github.com/Textualize/rich)
-[![Status](https://img.shields.io/badge/status-active-success)](#project-status)
-
-**A stylish terminal dashboard for discovering, researching, exporting, and monitoring Fomo Family traders through the Fomo API.**
-
-> Fomo Trader Intelligence is a data and research tool. It does not submit transactions, manage private keys, or provide financial advice.
-
-## Repository Details
-
-| Property | Value |
-|---|---|
-| **Repository name** | `fomo-trader-intelligence` |
-| **Short description** | Terminal-based Fomo API trader discovery, portfolio analytics, swap monitoring, and research toolkit |
-| **Suggested topics** | `fomo-api`, `trading-bot`, `terminal-ui`, `crypto`, `solana`, `evm`, `wallet-monitor`, `trader-analytics`, `python`, `rich` |
-| **Fomo API** | [https://getfomoapi.fun](https://getfomoapi.fun) |
-| **Telegram** | [@dexlenai](https://t.me/dexlenai) |
-| **X / Twitter** | [@0xdexlenai](https://x.com/0xdexlenai) |
-
 ## Overview
 
 Fomo Trader Intelligence turns the Fomo API into an interactive command center. It provides guided prompts, formatted tables, local watchlists, swap deduplication, position-change detection, historical snapshots, and complete trader exports without requiring users to write API requests manually.
 
 The project separates API access, terminal presentation, portfolio analysis, and local persistence into small modules. API keys remain in a local environment file, while generated state is stored in SQLite.
+
+<img width="1898" height="987" alt="image" src="https://github.com/user-attachments/assets/f31e3194-8b38-48c9-bc3b-6269f05387b4" />
+
 
 ## Key Features
 
@@ -206,6 +209,9 @@ Both paths are created automatically and excluded from Git.
 
 ## Documentation
 
+<img width="1460" height="981" alt="04" src="https://github.com/user-attachments/assets/0901466e-3d1d-4767-8c4f-063db3b09f01" />
+
+
 - [Installation and Setup](guides/installation-and-setup.md)
 - [Project Purpose and Use Cases](guides/project-purpose-and-use-cases.md)
 - [Using Terminal Features](guides/using-terminal-features.md)
@@ -239,6 +245,8 @@ python -m compileall -q .
 See [Contributing and Extending](guides/contributing-and-extending.md) for implementation details.
 
 ## Project Status
+
+<img width="1442" height="526" alt="01" src="https://github.com/user-attachments/assets/31128a28-d7bd-416e-8bfe-86eabe6b1297" />
 
 The application supports every currently documented Fomo REST data endpoint relevant to its menu. The planned Fomo WebSocket trade stream is not integrated because the upstream endpoint is not yet active.
 
